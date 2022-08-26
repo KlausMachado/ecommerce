@@ -5,9 +5,9 @@ import Product from "./product/product";
 //Grid é um componente de colunas
 
 const products = [
-    {id: 1, name: 'Shoes', description: 'Running shoes.' , price: '100'},
-    {id: 2, name: 'Macbook', description: 'Apple macbook.' , price: '1000'}
-]
+    {id: 1, name: 'Shoes', description: 'Running shoes.' , price: '100', src: '../src/images/running-shoes.jpg'},
+    {id: 2, name: 'Macbook', description: 'Apple macbook.' , price: '1000', src: '../src/images/macbook.jpg'}
+] 
 
 const RenderProducts = (i) => {
   return (
