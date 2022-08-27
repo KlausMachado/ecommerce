@@ -10,10 +10,14 @@ import {
 import { AddShoppingCart } from "@mui/icons-material";
 
 const Product = (products) => {
-  console.log(products.products.src)
+  console.log(products.products.src);
   return (
     <Card>
-      <CardMedia title={products.products.name} image={products.products.src} component="img" />
+      <CardMedia
+        title={products.products.name}
+        image={products.products.src}
+        component="img"
+      />
       <CardContent>
         <div>
           <Typography variant="h5" gutterBottom>
