@@ -24,7 +24,7 @@ const products = [
 
 const RenderProducts = (i) => {
   return (
-    <main style={{ width: "500px" }}>
+    <main style={{ width: "500px" , marginTop: '5px'}} >
       <Grid key={i}>
         {products.map((props) => {
           return (
