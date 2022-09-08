@@ -34,7 +34,7 @@ const Navbar = () => {
               <Badge badgeContent={2} color="secondary">
                 {/* (nº itens carrinho)*/}
                 <ShoppingCart />
-              </Badge>
+              </Badge> 
             </IconButton>
           </div>
         </Toolbar>

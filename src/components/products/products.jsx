@@ -11,16 +11,18 @@ const products = [
     name: "Shoes",
     description: "Running shoes.",
     price: "100",
-    src: { Running },
+    src:  Running ,
   },
   {
     id: 2,
     name: "Macbook",
     description: "Apple macbook.",
     price: "1000",
-    src: { Macbook },
+    src:  Macbook ,
   },
 ];
+
+console.log(Running)
 
 const RenderProducts = (i) => {
   return (
