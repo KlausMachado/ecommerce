@@ -13,7 +13,8 @@ const Product = (products) => {
   console.log(products.products.src);
   return (
     <Card>
-      <CardMedia
+      <CardMedia 
+        sx={{ maxHeight: 355 }}          
         title={products.products.name}
         image={products.products.src}
         component="img"

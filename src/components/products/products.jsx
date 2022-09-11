@@ -11,22 +11,28 @@ const products = [
     name: "Shoes",
     description: "Running shoes.",
     price: "100",
-    src:  Running ,
+    src: Running,
   },
   {
     id: 2,
     name: "Macbook",
     description: "Apple macbook.",
     price: "1000",
-    src:  Macbook ,
+    src: Macbook,
   },
 ];
 
-console.log(Running)
+console.log(Running);
 
 const RenderProducts = (i) => {
   return (
-    <main style={{ backgroundColor: "blue", flexGrow: "1", padding: "24px" }}>
+    <main
+      style={{
+        backgroundColor: "#d4d6da",
+        flexGrow: "1",
+        padding: "24px",
+      }}
+    >
       <Grid
         key={i}
         container
