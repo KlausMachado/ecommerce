@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import Product from "./product/product";
 import Running from "../../images/running-shoes.jpg";
 import Macbook from "../../images/macbook.jpg";
+import Sneakers from "../../images/image-product-1.jpg"
 //Grid é um componente de colunas
 
 const products = [
@@ -19,6 +20,13 @@ const products = [
     description: "Apple macbook.",
     price: "1000",
     src: Macbook,
+  },
+  {
+    id: 3,
+    name: "Sneakers",
+    description: "usual sneakers.",
+    price: "80",
+    src: Sneakers,
   },
 ];
 

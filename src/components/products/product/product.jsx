@@ -14,7 +14,7 @@ const Product = (products) => {
   return (
     <Card>
       <CardMedia 
-        sx={{ maxHeight: 355 }}          
+        sx={{ maxHeight: 284 }}          
         title={products.products.name}
         image={products.products.src}
         component="img"
