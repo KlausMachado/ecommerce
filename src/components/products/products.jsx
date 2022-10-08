@@ -36,7 +36,7 @@ const RenderProducts = (i) => {
       <Grid
         key={i}
         container
-        justifyContent="space-between"
+        justifyContent="center"
         spacing={4}
         sx={{ marginTop: 5 }}
       >

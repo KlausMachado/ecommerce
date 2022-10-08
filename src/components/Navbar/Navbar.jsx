@@ -14,7 +14,7 @@ import logo from "../../images/bolsa-de-compras.png";
 /*
  * AppBar = componente header
  * Toolbar = componente de div
- * IconButton = componente button
+ * IconButton = componente button 
  * Badge = componente span
  * Typogaphy = componente text
  */
