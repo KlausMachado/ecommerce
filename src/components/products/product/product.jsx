@@ -13,18 +13,21 @@ const Product = (products) => {
   console.log(products.products.src);
   return (
     <Card>
-      <CardMedia 
-        sx={{ maxHeight: 284 }}          
-        title={products.products.name}
-        image={products.products.src}
-        component="img"
-      />
+      <a href="#">
+        <CardMedia
+          sx={{ maxHeight: 284 }}
+          title={products.products.name}
+          image={products.products.src}
+          component="img"
+        />
+      </a>
+
       <CardContent>
         <div>
           <Typography variant="h5" gutterBottom>
             {products.products.name}
           </Typography>
-          <Typography variant="h5">{products.products.price}</Typography>
+          <Typography variant="h5">$ {products.products.price}</Typography>
         </div>
         <Typography variant="h4">{products.products.description}</Typography>
       </CardContent>
