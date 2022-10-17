@@ -8,20 +8,20 @@ import {
   IconButton,
 } from "@mui/material";
 import { AddShoppingCart } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const Product = (products) => {
   console.log(products.products.src);
   return (
     <Card>
-      <a href="#">
+      <Link to="/">
         <CardMedia
           sx={{ maxHeight: 284 }}
           title={products.products.name}
           image={products.products.src}
           component="img"
         />
-      </a>
-
+      </Link>
       <CardContent>
         <div>
           <Typography variant="h5" gutterBottom>

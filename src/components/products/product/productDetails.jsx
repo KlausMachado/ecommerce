@@ -1,14 +1,7 @@
 import React from "react";
-import {
-  Card,
-  CardMedia,
-  CardContent,
-  CardActions,
-  Typography,
-  IconButton,
-} from "@mui/material";
+import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 
-const ProductDetails = (details) => {
+const ProductDetails = (products) => {
   return (
     <Card>
       <CardMedia title={products.products.name} />

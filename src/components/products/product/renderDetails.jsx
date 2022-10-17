@@ -1,7 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import ProductDetails from "./productDetails";
+import ProductDetails from "../product/productDetails";
 
+import Sneakers1 from "../../../images/image-product-1.jpg"
+import Sneakers2 from "../../../images/image-product-2.jpg"
 import Sneakers3 from "../../../images/image-product-3.jpg";
 
 const details = [
@@ -10,8 +12,8 @@ const details = [
     name: "Shoes",
     description: "Running shoes.",
     price: "100",
-    image1: Running,
-    image2: Running,
+    image1: Sneakers1,
+    image2: Sneakers2,
     image3: Sneakers3,
   },
 ];
@@ -37,3 +39,5 @@ const RenderDetails = (i) => {
     </Grid>
   );
 };
+
+export default RenderDetails
