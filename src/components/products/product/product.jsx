@@ -14,23 +14,27 @@ const Product = (products) => {
   console.log(products.products.src);
   return (
     <Card>
-      <Link to="/">
+      <Link
+        to="/product-details"
+        style={{ textDecoration: "none", color: "unset" }}
+      >
         <CardMedia
           sx={{ maxHeight: 284 }}
           title={products.products.name}
           image={products.products.src}
           component="img"
         />
+        <CardContent>
+          <div>
+            <Typography variant="h5" gutterBottom sx={{ maxHeight: "41px" }}>
+              {products.products.name}
+            </Typography>
+            <Typography variant="h5">$ {products.products.price}</Typography>
+          </div>
+          <Typography variant="h4">{products.products.description}</Typography>
+        </CardContent>
       </Link>
-      <CardContent>
-        <div>
-          <Typography variant="h5" gutterBottom>
-            {products.products.name}
-          </Typography>
-          <Typography variant="h5">$ {products.products.price}</Typography>
-        </div>
-        <Typography variant="h4">{products.products.description}</Typography>
-      </CardContent>
+
       <CardActions disableSpacing>
         <IconButton aria-label="Add to cart">
           <AddShoppingCart />

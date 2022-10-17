@@ -3,15 +3,13 @@ import RenderProducts from "./components/products/products";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./routes/routes";
 
-
-
 function App() {
   return (
     <>
       <Navbar />
-      <RenderProducts />
       <BrowserRouter>
-        <AppRoutes/>
+        <RenderProducts />
+        <AppRoutes />
       </BrowserRouter>
     </>
   );

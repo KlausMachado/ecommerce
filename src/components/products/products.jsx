@@ -11,21 +11,21 @@ const products = [
   {
     id: 1,
     name: "Shoes",
-    description: "Running shoes.",
+    description: "Running shoes",
     price: "100",
     src: Running,
   },
   {
     id: 2,
     name: "Macbook",
-    description: "Apple macbook.",
+    description: "Apple macbook",
     price: "1000",
     src: Macbook,
   },
   {
     id: 3,
     name: "Sneakers",
-    description: "usual sneakers.",
+    description: "usual sneakers",
     price: "80",
     src: Sneakers,
   },
@@ -52,7 +52,7 @@ const RenderProducts = (i) => {
         {products.map((props) => {
           return (
             <Grid item key={props.id} xs={12} sm={6} md={4} lg={3}>
-              <Link to="/">
+              <Link to="/" style={{ textDecoration: "none", color: "unset" }}>
                 <Product products={props} />
               </Link>
             </Grid>
