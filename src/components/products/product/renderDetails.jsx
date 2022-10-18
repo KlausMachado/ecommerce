@@ -10,7 +10,7 @@ const details = [
   {
     id: 1,
     name: "Shoes",
-    description: "Running shoes.",
+    description: "Running shoes. BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla",
     price: "100",
     image1: Sneakers1,
     image2: Sneakers2,

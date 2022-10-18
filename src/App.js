@@ -6,8 +6,8 @@ import { AppRoutes } from "./routes/routes";
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <RenderProducts />
         <AppRoutes />
       </BrowserRouter>

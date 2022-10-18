@@ -52,9 +52,7 @@ const RenderProducts = (i) => {
         {products.map((props) => {
           return (
             <Grid item key={props.id} xs={12} sm={6} md={4} lg={3}>
-              <Link to="/" style={{ textDecoration: "none", color: "unset" }}>
-                <Product products={props} />
-              </Link>
+              <Product products={props} />
             </Grid>
           );
         })}
