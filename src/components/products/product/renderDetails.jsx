@@ -2,9 +2,9 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import ProductDetails from "../product/productDetails";
 
-import Sneakers1 from "../../../images/image-product-1.jpg"
-import Sneakers2 from "../../../images/image-product-2.jpg"
-import Sneakers3 from "../../../images/image-product-3.jpg";
+import Sneakers1 from "../../../assets/images/image-product-1.jpg"
+import Sneakers2 from "../../../assets/images/image-product-2.jpg"
+import Sneakers3 from "../../../assets/images/image-product-3.jpg";
 
 const details = [
   {

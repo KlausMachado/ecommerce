@@ -1,9 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Product from "./product/product";
-import Running from "../../images/running-shoes.jpg";
-import Macbook from "../../images/macbook.jpg";
-import Sneakers from "../../images/image-product-1.jpg";
+import Running from "../../assets/images/running-shoes.jpg";
+import Macbook from "../../assets/images/macbook.jpg";
+import Sneakers from "../../assets/images/image-product-1.jpg";
 import { Link } from "react-router-dom";
 //Grid é um componente de colunas
 
@@ -51,9 +51,9 @@ const RenderProducts = (i) => {
       >
         {products.map((props) => {
           return (
-            <Grid item key={props.id} xs={12} sm={6} md={4} lg={3}>
-              <Product products={props} />
-            </Grid>
+              <Grid item key={props.id} xs={12} sm={6} md={4} lg={3}>
+                <Product products={props} />
+              </Grid>
           );
         })}
       </Grid>

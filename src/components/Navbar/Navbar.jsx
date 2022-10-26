@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, IconButton, Badge, Typography } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
-import logo from "../../images/bolsa-de-compras.png";
+import logo from "../../assets/images/bolsa-de-compras.png";
 import { Link } from "react-router-dom";
 
 /*
