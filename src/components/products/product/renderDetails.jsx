@@ -28,8 +28,6 @@ const RenderDetails = (i) => {
       sx={{ marginTop: 5 }}
     >
       {details.map((props) => {
-            console.log(props)
-
         return (
           <Grid item key={props.id} xs={12} sm={6} md={4} lg={3}>
             <ProductDetails products={props} />
